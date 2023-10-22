@@ -37,6 +37,13 @@ author_work_experiences:
               description: Controllo ed eventuale richiesta dei documenti sia degli studenti che dei docenti, revisione del documento 15 maggio, iscrizione classi anno scolastico 23/24, aggiornamento di dati personali sul registro elettronico, sistemazione degli archivi, controllo ed eventuale richiesta del diploma di 3 media per i maturandi, accoglienza e smistamento delle persone che vengono per amministrazione e segreteria, chiamate ai genitori per eventuali attività (viaggi di istruzione, corsi di lingua inglese e francese), preparazione del materiale per gli eventi come open day, info day e Gonzaga city day, gestione dei colloqui per il servizio civile dell'anno prossimo
               visibility: true
 
+              - company_name: Garden's Baby
+              company_logo: garden.png
+              company_url: https://www.gardensbaby.it/
+              designation: Insegnante
+              description: Assistenza presso la scuola dell'infanzia Garden's Baby. Bambini da 1 a 5 anni di età cui compito comprende l'insegnamento della lettura e della scrittura, apprendimento della colorazione entro i bordi, abituarli all'autonomia nel mangiare e a relazionarsi con gli altri bambini
+              visibility: true
+
             - company_name: Duecci Market S.R.L.S
               company_logo: duecci.png
               company_url: https://dueccimarketsrls.business.site/
@@ -44,13 +51,31 @@ author_work_experiences:
               description: Controllo e certifico i prodotti prima di una consegna e offro un servizio clienti. Attività part-time della durata di 3 mesi con responsabilità verso i clienti e i colleghi
               visibility: true
 
-            - company_name: Riparto Mafeking Palermo 4°
-              company_logo: scouts.webp
-              designation: Guida
-              description: Percorso scoutistico, durato 8 anni, in cui ho partecipato a varie attività che prevedevano la cooperazione fra compagni e la messa in pratica di nozioni teoriche. Imparare a rispettare la natura e i suoi abitanti erano le finalità di queste attività.
+              - company_name: Happy Hope
+              company_logo: happy-hope.jpeg
+              designation: Volontariato
+              description: Volontariato presso le case famiglie con bambini dai 2 mesi ai 15 anni. Organizzazione di attività all'interno della struttura che comprendono i laboratori manuali e motori e uscite fuori dalla struttura
+              visibility: true
+
+              - company_name: Babysitter
+              company_logo: baby.jpeg
+              designation: Babysitter
+              description: Servizio di babysittig 2 ore al giorno per un totale di 10 ore settimanali. Questo lavoro comprende il badare a un bambino di 21 mesi, giocando fuori e dentro casa, fare passeggiate con e senza passeggino, cambiarlo, lavarlo e nutrirlo
               visibility: true
 
 
+            - company_name: Riparto Mafeking Palermo 4°
+              company_logo: scouts.webp
+              designation: Volontariato
+              description: Percorso scoutistico, durato 8 anni, in cui ho partecipato a varie attività che prevedevano la cooperazione fra compagni e la messa in pratica di nozioni teoriche. Imparare a rispettare la natura e i suoi abitanti erano le finalità di queste attività.
+              visibility: true
+
+              - company_name: Parrocchia San Carlo Borromeo
+              company_logo: san-carlo.jpg
+              company_url: https://www.chiesadipalermo.it/wd-annuario-enti/primo-vicariato-1240/s-carlo-borromeo-243/
+              designation: Catechista
+              description: Insegnamento del comportamento di un buon Cristiano. Attività ricreative per insegnare ai bambini, in modo divertente, i momenti importanti della vita di Gesù. Eventi extra-catechistiche per agevolare l'incontro con i bambini. Interazione con i genitori per far vivere a pieno e nel migliore dei modi il percorso catechistico e la vita da buon figlio di Dio, sia a loro che ai bambini. Bambini dai 7 ai 9 anni. Classi formati da circa 16 bambini e presenza di 3 catechisti per ogni classe. Accompagnamento dei bambini dal 1° al 3° anno di catechismo
+              visibility: true
 
 
 # Education
