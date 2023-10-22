@@ -1,0 +1,224 @@
+title: Irene Lo Cascio
+subtitle: Quando cado mi rialzo
+description: "Studentessa di Scienze Dell'Educazione @ Università degli Studi di Palermo" # this means to ignore newlines until "baseurl:"
+
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Navigation
+urls:
+    # - text: Home
+    #   url: /
+    # - text: About Me
+    #  url: /about
+    # - text: Blog
+    #  url: /blog
+    # - text: Contact
+    #   url : /contact
+
+
+# Edit Author details (For multi authors check _data/authors.yml)
+
+author_logo: profile.jpeg
+author: Irene Lo Cascio
+author_bio: Mi piacerebbe arrivare a ricoprire ruoli che mi diano sempre maggiore autonomia decisionale perché sono una persona che sa prendersi le proprie responsabilità
+author_email: "locascioirene02@gmail.com"
+author_location: Italy
+# author_website_url: "https://sujaykundu.com"
+typewrite-text: Quando cado mi rialzo
+
+# Experiences
+author_work_experiences:
+
+            - company_name: Centro Educativo Ignaziano
+              company_logo: Gonzaga_CAMPUS.png
+              company_url: https://gonzagacampus.it/
+              designation: Assistenza Segreteria
+              description: Controllo ed eventuale richiesta dei documenti sia degli studenti che dei docenti, revisione del documento 15 maggio, iscrizione classi anno scolastico 23/24, aggiornamento di dati personali sul registro elettronico, sistemazione degli archivi, controllo ed eventuale richiesta del diploma di 3 media per i maturandi, accoglienza e smistamento delle persone che vengono per amministrazione e segreteria, chiamate ai genitori per eventuali attività (viaggi di istruzione, corsi di lingua inglese e francese), preparazione del materiale per gli eventi come open day, info day e Gonzaga city day, gestione dei colloqui per il servizio civile dell'anno prossimo
+              visibility: true
+
+            - company_name: Duecci Market S.R.L.S
+              company_logo: duecci.png
+              company_url: https://dueccimarketsrls.business.site/
+              designation: Repartista
+              description: Controllo e certifico i prodotti prima di una consegna e offro un servizio clienti. Attività part-time della durata di 3 mesi con responsabilità verso i clienti e i colleghi
+              visibility: true
+
+            - company_name: Riparto Mafeking Palermo 4°
+              company_logo: scouts.webp
+              designation: Guida
+              description: Percorso scoutistico, durato 8 anni, in cui ho partecipato a varie attività che prevedevano la cooperazione fra compagni e la messa in pratica di nozioni teoriche. Imparare a rispettare la natura e i suoi abitanti erano le finalità di queste attività.
+              visibility: true
+
+
+
+
+# Education
+author_education_details:
+              - college_logo: unipa.png
+                college_name: Università degli Studi di Palermo
+                college_url: https://unipa.it
+                college_degree: Scienze Dell'Educazione
+                description: Laurea Triennale
+                visibility: true
+
+# Projects
+# author_project_details:
+#               - project_thumbnail: accounting.webp
+#                 project_title: Accounting Program
+#                 project_description: Desktop App that takes a Dataframe from .csv file. You can add, edit or remove the desired bill. You can print the total given by the sum of the various accounts.
+#                 # project_url: https://hack4r.com
+#                 visibility: true
+
+#               - project_thumbnail: rubik.webp
+#                 project_title: Rubik Cube
+#                 project_description: Rubik's Cube in pygame with OpenGL. The script shows on the screen a Rubik Cube built with OpenGL. Then I have also implemented all the possible moves as combination of the main moves. It is possible to change camera view with the mouse in a rude way.
+#                 project_url: https://github.com/Gabro29/Rubik
+#                 visibility: true
+
+# social links
+# github_username:  gabro29
+# linkedin_username: johndoe
+instagram_username: locascioirene
+# youtube_username: UCkGvbGqYzDi3lfgtbQ_pngg
+# linkedin_username: gabriele-lo-cascio-197609221
+
+# disqus_shortname: sujay-kundu
+hyvor_talk_website_id: 476
+
+# wakatime username (coding activity)
+# wakatime_username: gabro29
+
+# mailchimp embedded form url (newsletter):
+mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+
+# contact form - (choose formspress or getform)
+# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
+formspree_email: johndoe@gmail.com
+
+# releases - widget can be (sidebar, modal or embed)
+# olvy_organization: devlopr
+# olvy_widget_type: sidebar
+
+# syntax highlighter
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Choose what to show ( can be true or false)
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+
+# pagination of posts
+paginate: 4
+per_page: 4
+paginate_path: "/blog/page/:num/"
+
+# minify
+# compress_html:
+#   clippings: all
+#   comments: ["<!-- ", " -->"]
+#   endings: all
+#   ignore:
+#     envs: ['development']
+
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+
+collections:
+  products:
+    output: true
+  authors:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
+  -
+    scope:
+      path: 'assets/**'
+    values:
+      sitemap: false
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-admin
+
+# Jekyll Admin Config
+jekyll_admin:
+  # hidden_links:
+  #   - posts
+  #   - pages
+  #   - staticfiles
+  #   - datafiles
+  #   - configuration
+  homepage: "posts"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+
+### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
+# none - For no default
+# gh-pages - For Github Pages
+# firebase - For Firebase Hosting
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - assets/bower_components/isotope-layout/README.md
+  - assets/bower_components/icono/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
+  - assets/bower_components/ghosthunter/README.md
+  - assets/bower_components/nanobar/README.md
+  - assets/bower_components/lightgallery/demo/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
+  - assets/bower_components/jquery-mousewheel/README.md
+  - assets/bower_components/get-size/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
+  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
+  - assets/bower_components/desandro-matches-selector/README.md
+  - assets/bower_components/ev-emitter/README.md
+  - assets/bower_components/font-awesome/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
+  - assets/bower_components/ghosthunter/example/Index.html
+  - assets/bower_components/lightgallery/test/lightgallery.html
+  - assets/bower_components/masonry-layout/README.md
+  - assets/bower_components/imagesloaded/README.md
+
+
+destination: ./build

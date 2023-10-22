@@ -1,0 +1,12 @@
+# Add Authors here
+johndoe:
+   name: Irene Lo Cascio
+   username: irene-05
+  #  site: http://johndoe.com
+   avatar: profile.jpeg
+   bio: "Quando cado mi rialzo"
+   email: locascioirene02@gmail.com
+   social:
+      - title: "instagram"
+        url: "https://www.instagram.com/locascioirene/"
+
